@@ -27,5 +27,20 @@ class EventController extends Controller
         return view('events.login');
     }
 
+    public function store(Request $request){
+
+        $event = new Event;
+
+        $event->title = $request->title;
+        $event->city = $request->city;
+        $event->private = $request->private;
+        $event->description = $request->description;
+
+        $event->save();
+
+        return redirect('/');
+
+    }
+
 
 }
