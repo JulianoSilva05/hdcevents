@@ -26,18 +26,18 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="nav-brand">
-                        <img src="/img/hdcevents_logo.svg" alt="HDC Events">
+                        <img src="/img/escalar_logo.png" alt="Escalar">
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Eventos</a>
+                            <a href="/" class="nav-link">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/events/create" class="nav-link">Criar Eventos</a>
+                            <a href="/events/create" class="nav-link">Criar curso</a>
                         </li>
                         @auth
                         <li class="nav-item">
-                            <a href="/dashboard" class="nav-link">Meus eventos</a>
+                            <a href="/dashboard" class="nav-link">Meus cursos</a>
                         </li>
                         <li class="nav-item">
                             <form action="/logout" method="POST">
@@ -76,7 +76,7 @@
             </div>
         </main>
         <footer>
-            <p>HDC Events &copy; 2020</p>
+            <p>Escalar - Cursos &copy; 2020</p>
         </footer>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

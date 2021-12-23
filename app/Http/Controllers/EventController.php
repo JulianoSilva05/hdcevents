@@ -35,9 +35,7 @@ class EventController extends Controller
         $event = new Event;
 
         $event->title = $request->title;
-        $event->date = $request->date;
-        $event->city = $request->city;
-        $event->private = $request->private;
+        $event->duracao = $request->duracao;
         $event->description = $request->description;
         $event->items = $request->items;
 
@@ -58,7 +56,7 @@ class EventController extends Controller
 
         $event->save();
 
-        return redirect('/')->with('msg', 'Evento criado com sucesso!');
+        return redirect('/')->with('msg', 'Curso cadastrado com sucesso!');
 
     }
 
