@@ -29,16 +29,22 @@
                         <img src="/img/escalar_logo.png" alt="Escalar">
                     </a>
                     <ul class="navbar-nav">
+                        {{--Menu após cadastro, alterar posteriomente
                         <li class="nav-item">
                             <a href="/" class="nav-link">Cursos</a>
                         </li>
+                        --}}
+                        {{--Menu somente para administradores
                         <li class="nav-item">
                             <a href="/events/create" class="nav-link">Criar curso</a>
                         </li>
+                        --}}
                         @auth
+                        {{--Menu após cadastro, alterar posteriomente
                         <li class="nav-item">
                             <a href="/dashboard" class="nav-link">Meus cursos</a>
                         </li>
+                        --}}
                         <li class="nav-item">
                             <form action="/logout" method="POST">
                                 @csrf
@@ -53,11 +59,13 @@
                         @endauth
                         @guest
                         <li class="nav-item">
-                            <a href="/login" class="nav-link">Entrar</a>
+                        <a href="/login" class="nav-link" ion-icon name="person-circle-outline">Entrar</a>
                         </li>
+                        {{--Menu somente para administradores
                         <li class="nav-item">
                             <a href="/register" class="nav-link">Cadastrar</a>
                         </li>
+                        --}}
 
                         @endguest
                     </ul>

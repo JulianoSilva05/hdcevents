@@ -5,7 +5,7 @@
 @section('content')
 
 
-{{-- Divs com imagemns e saiba mais com a:houver no botão saiba mais--}}
+{{-- Divs com imagemns e saiba mais com a:houver no botão saiba mais --}}
 
 <div id="search-container" class="col-md-12">
     <form action="/">
@@ -15,51 +15,35 @@
     <div id="events-container" class="col-md-12">
     <div id="cards-container" class="row">
           <div class="card col-md3">
-            <img src="/img/events/bn_trend.png" alt="Descrição">
-            {{-- 
+            <img src="/img/events/bn_trend.png" alt="Descrição"> 
                 <div class="card-body">
-                <h5 class="card-title">Google Trends </h5>
-                <p class="card-date">Duração</p>
-                <p class="card-participants">X Alunos</p>
-                <a href="/events/id" class="btn btn-primary">Saber mais</a>
-            </div>
-            --}}
+                <h5 class="card-title">Criando uma empresa  de  Publicitaria indoor de Sucesso </h5>
+                <a href="/player" class="btn btn-primary">Saber mais</a>
+                </div>
         </div>
 
         <div class="card col-md3">
             <img src="/img/events/bn_asana.png" alt="Descrição">
-            {{-- 
                 <div class="card-body">
-                <h5 class="card-title">Asana </h5>
-                <p class="card-date">Duração</p>
-                <p class="card-participants">X Alunos</p>
-                <a href="/events/id" class="btn btn-primary">Saber mais</a>
+                <h5 class="card-title">Criando uma empresa  de  Tv Corporativa de Sucesso </h5>
+                <a href="/player" class="btn btn-primary">Saber mais</a>
             </div>
-            --}}
         </div>
 
         <div class="card col-md3">
             <img src="/img/events/bn_elementor.png" alt="Descrição">
-            {{-- 
                 <div class="card-body">
-                <h5 class="card-title">Elementor </h5>
-                <p class="card-date">Duração</p>
-                <p class="card-participants">X Alunos</p>
-                <a href="/events/id" class="btn btn-primary">Saber mais</a>
+                <h5 class="card-title">Como montar meu Video Wall e vender mais </h5>
+                <a href="/player" class="btn btn-primary">Saber mais</a>
             </div>
-            --}}
         </div>
 
         <div class="card col-md3">
             <img src="/img/events/bn_funnelytics.png" alt="Descrição">
-            {{-- 
                 <div class="card-body">
-                <h5 class="card-title">Funnelytics </h5>
-                <p class="card-date">Duração</p>
-                <p class="card-participants">X Alunos</p>
-                <a href="/events/id" class="btn btn-primary">Saber mais</a>
+                <h5 class="card-title">Como montar um Mural Digital para vender comida pronta </h5>
+                <a href="/player" class="btn btn-primary">Saber mais</a>
             </div>
-            --}}
         </div>
 
 

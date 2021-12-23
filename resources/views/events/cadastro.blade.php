@@ -4,6 +4,6 @@
 
 @section('content')
 
-<h1>Cadastro</h1>
+<h1></h1>
 
 @endsection
